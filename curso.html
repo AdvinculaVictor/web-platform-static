@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Curso Html Css</title>
+    <meta charset='UTF-8'>
+    <link rel="icon" href="imagenes/icono.png">    
+  </head>
+<body lang="es">
+  <h2>AppDeGatos</h2>
+    <h3>Imágenes de Gatos:</h3>
+     <!-- TODO: Agregar enlace a imágenes de gatos  -->
+    <p>Haz click aquí para ver más <a href="https://www.freecodecamp.org/espanol/" target="_blank" rel="noopener noreferrer">imágenes de gatos.</a></p>
+
+    <a href="https://www.freecodecamp.org/espanol/" target="_blank" rel="noopener noreferrer"><img src="https://bit.ly/fcc-relaxing-cat" alt="Un lindo gato naranja recostado sobre su espalda." width="300"></a>
+    <img src="imagenes/lasagna.jpg" alt="lasaña" title="lasaña">
+    <img src="imagenes/tiguan.webp" type="image/webp" alt="camioneta" title="Mi Tiguan" usemap="#camioneta" width="300">
+    <map name="camioneta">
+      <area shape="circle" coords="602,434,68" href="https://amazon.com.mx" alt="" target="_blank">
+    </map>    
+    <br>
+    <img src="imagenes/mandala.svg" alt="Dibujo SVG de una mandala" width="1000">
+    <br>
+    <img src="imagenes/circolus.svg" alt="Imagen de vectores de circulos" width="1000">
+    <br>    
+    <a href="pagina1.html">Ir a otra página</a>
+
+    <p id="parr1">
+      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Blanditiis, voluptatum accusantium facere porro earum, illo dolore, esse voluptatem mollitia reprehenderit aut amet expedita ipsum impedit non odit voluptatibus rem dolorem.
+      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rerum quos reiciendis voluptate omnis, soluta maiores dolore officiis ea, sed consectetur recusandae, reprehenderit aspernatur nulla accusamus aperiam distinctio alias facere laudantium.
+    </p>
+
+    <p id="parr2">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sequi nihil laudantium rem optio. Nam enim laborum placeat sequi culpa sint facere nostrum, blanditiis beatae perferendis temporibus quos. Minus, sunt fugiat.</p>
+
+    <ol type="I">
+      <li>Item 1</li>
+      <li>Item 2</li>
+      <li>Item 3</li>
+      <li>Item 4</li>
+      <li>Item 5</li>
+    </ol>
+    <ul>
+      <li>Item 6</li>
+      <li>Item 7</li>
+      <li>Item 8</li>
+      <li>Item 9</li>
+      <li>Item 10</li>
+    </ul>
+    <table border="1">
+      <caption>Esta es una tabla</caption>
+      <tr>
+        <th>Mes</th>
+        <th>Nombre</th>  
+      </tr>      
+      <tr>
+        <td>01</td>
+        <td>Enero</td>
+      </tr>
+      <tr>
+        <td>02</td>
+        <td>Febrero</td>
+      </tr>
+    </table>
+    <br>
+    <div class="box">
+      <button onclick="alert(document.getElementById('parr1').textContent.length)">Caracteres párrafo 1</button>
+      <br><br>
+      <button onclick="alert(document.getElementById('parr2').textContent.length)">Caracteres párrafo 2</button>
+    </div>
+    <br>
+    <h2>Audio y video</h2>
+    <audio controls loop muted>
+      <source src="recursos/sonido.mp3" type="audio/mp3">
+    </audio>
+    <audio src="recursos/sonido.mp3" controls></audio>
+    <form action="">
+      <fieldset>
+        <legend>Formulario</legend>
+        <label for="name">Nombre:</label>
+        <input type="text" id="name"><br>
+        <label for="address">Dirección:</label>
+        <input type="text" id="address"><br>
+        <label for="birthday">Fecha de nacimiento:</label>
+        <input type="date" id="birthday"><br>
+        <label for="picture">Fotografía:</label>
+        <input type="file" id="picture"><br>
+        <label for="color">Color favorito:</label>
+        <input type="color" name="color" id="color"><br>
+      </fieldset>
+      <fieldset>
+        <legend>Opción única</legend>
+        <input type="radio" id="red" name="color2" value="red">
+        <label for="red">Rojo</label><br>
+        <input type="radio" id="blue" name="color2" value="blue">
+        <label for="blue">Azul</label><br>
+        <input type="radio" id="green" name="color2" value="green">
+        <label for="green">Verde</label><br>        
+      </fieldset>
+      <fieldset>
+        <legend>Opción múltiple</legend>
+        <label for="chevrolet">Chevrolet</label>
+        <input type="checkbox" id="chevrolet" name="chevrolet">
+        <label for="volkswagen">Volkswagen</label>
+        <input type="checkbox" id="volkswagen" name="volkswagen">
+        <label for="ford">Ford</label>
+        <input type="checkbox" id="ford" name="ford">
+      </fieldset>
+    </form>
+</body>
+</html>

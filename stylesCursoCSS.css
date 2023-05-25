@@ -1,0 +1,41 @@
+body{
+  background-image: url("imagenes/tiguan.jpeg");
+}
+
+h1{
+  color:rgb(243, 241, 248);
+  background-color: red;
+}
+h2{
+  color:lightseagreen;
+}
+#titulo {
+  color:rgb(120, 42, 165);
+}
+h2.brown{
+  color:brown;
+}
+
+.name{
+  background-color: blue;
+}
+
+.hex{
+  background-color: #515685 ;
+}
+
+.rgb{
+  background-color: rgb(231, 142, 76);
+}
+
+.rgba{
+  background-color: rgba(231, 142, 76, 0.3); /*canal alpha*/
+}
+
+.hsl{
+  background-color: hsl(340, 62%, 64%);
+}
+
+.hsla{
+  background-color: hsla(340, 62%, 64%, 0.5); /*canal alpha*/
+}
