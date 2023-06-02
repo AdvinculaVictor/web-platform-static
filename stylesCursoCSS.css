@@ -9,6 +9,8 @@ body{
   font-family: 'Open Sans', sans-serif;
   font-family: 'Proza Libre', sans-serif;
   background-image: url("imagenes/tiguan.jpeg");
+  margin-left: 50px;
+  margin-right: 50px;
 }
 
 nav {
@@ -43,6 +45,7 @@ h1{
 }
 h2{
   color:rgb(60, 14, 145);
+  background-color: blanchedalmond;
 }
 #titulo {
   color:rgb(120, 42, 165);
@@ -64,7 +67,7 @@ h2.brown{
 }
 
 .rgba{
-  background-color: rgba(231, 142, 76, 0.3); /*canal alpha*/
+  background-color: rgba(231, 142, 76, 0.75); /*canal alpha*/
 }
 
 .hsl{
@@ -73,4 +76,15 @@ h2.brown{
 
 .hsla{
   background-color: hsla(120, 68%, 48%, 0.5); /*canal alpha*/
+}
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: red;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
 }

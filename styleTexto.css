@@ -1,7 +1,14 @@
   @import url('https://fonts.googleapis.com/css2?family=Gentium+Book+Plus:ital@1&family=Playfair+Display:wght@500&display=swap');
+  /*@import url('https://fonts.googleapis.com/css2?family=Rubik+Puddles&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap'); */
+  @import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Parisienne&display=swap');
 
 h1{
-  font-family: 'Gentium Book Plus', serif;
+  /*font-family: 'Gentium Book Plus', serif;
+  font-family: 'Rubik Puddles', cursive;
+  font-family: 'Indie Flower', cursive;*/
+  font-family: 'Poiret One', cursive;
   font-size: 64px;
   text-align: center;
   color:blueviolet;
@@ -9,22 +16,25 @@ h1{
 }
 p{
   font-family: 'Playfair Display', serif;
-  font-size: 20px;
+  /* font-family: 'Parisienne', cursive; */
+  font-size: 25px;
   text-align: justify;
-  color:chocolate;
+  color:rgb(99, 8, 160);
   width: 80%;
   margin-left: auto;
   margin-right: auto;
 }
 p.capital::first-letter{
-  color:chartreuse;
+  color:rgb(60, 197, 231);
   font-size: 80px;
   float:left;
-  background-color: darkgoldenrod;
+  background-color: rgb(143, 35, 185);
   padding-top: 5px;
-  padding-bottom: 5px;
+  padding-right: 15px;
+  padding-left: 15px;
   margin-right: 5px;
-}
+  font-weight: bold;
+  }
 a{
   text-decoration:none;
   color: brown;
@@ -33,4 +43,22 @@ a{
 }
 a:hover{
   color:cadetblue;
+}
+
+.underline{
+  text-decoration: underline;
+}
+
+.italic{
+  font-style: italic;
+  color: rgb(143, 6, 70);
+}
+
+.border{
+  border: 5px dashed gray;
+  /* margin-top: 10%;
+  margin-right: 15%;
+  margin-bottom: 10%;
+  margin-left: 15%; */
+  margin: 10% 15% 10% 15%;
 }
