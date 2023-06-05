@@ -1,0 +1,19 @@
+.contenedor{
+  font-size: 32px;
+}
+
+.pixeles{
+  font-size: 32px; /*16 piceles es el valor por defecto */
+}
+
+.porcentaje{
+  font-size: 200%; /*100% el valor del contenedor*/
+}
+
+.em{
+  font-size: 1.25em; /*1em valor del contenedor*/
+}
+
+.rem{
+  font-size: 0.75rem; /*1rem valor del root*/
+}

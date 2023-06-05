@@ -47,6 +47,17 @@ h2{
   color:rgb(60, 14, 145);
   background-color: blanchedalmond;
 }
+
+h2.texto{
+  color:rgb(71, 231, 231);
+  background-color: rgb(224, 141, 15);  
+}
+
+h2.unidades{
+  color:rgb(204, 238, 14);
+  background-color: rgb(163, 0, 150);  
+}
+
 #titulo {
   color:rgb(120, 42, 165);
 }
