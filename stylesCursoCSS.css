@@ -9,6 +9,7 @@ body{
   font-family: 'Open Sans', sans-serif;
   font-family: 'Proza Libre', sans-serif;
   background-image: url("imagenes/tiguan.jpeg");
+  background-size: 250px;
   margin-left: 50px;
   margin-right: 50px;
 }
